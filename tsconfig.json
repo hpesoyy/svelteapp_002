@@ -1,0 +1,12 @@
+{
+	 "extends": "$app/tsconfig",
+	//"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"strict": true
+	},
+	"include": [
+		"src/**/*",
+		"./.svelte-kit/ambiend.d.ts",
+		 "vite.config.ts"
+		]
+}
